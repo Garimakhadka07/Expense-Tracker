@@ -185,6 +185,7 @@ class _HomeScreenState
                 );
 
                 if (mounted) {
+                  // ignore: use_build_context_synchronously
                   Navigator.pop(context);
                 }
               },
@@ -333,6 +334,7 @@ class _HomeScreenState
                           );
 
                           Navigator.push(
+                            // ignore: use_build_context_synchronously
                             context,
 
                             MaterialPageRoute(
@@ -384,6 +386,7 @@ class _HomeScreenState
                       if (mounted) {
                         Navigator
                             .pushReplacementNamed(
+                          // ignore: use_build_context_synchronously
                           context,
                           '/',
                         );
@@ -484,6 +487,7 @@ class _HomeScreenState
                       BoxShadow(
                         color: Colors
                             .deepPurple
+                            // ignore: deprecated_member_use
                             .withOpacity(
                           0.2,
                         ),
@@ -544,6 +548,7 @@ class _HomeScreenState
                               BoxDecoration(
                             color: Colors
                                 .orangeAccent
+                                // ignore: deprecated_member_use
                                 .withOpacity(
                               0.15,
                             ),
@@ -837,6 +842,7 @@ class _HomeScreenState
           decoration:
               BoxDecoration(
             color: Colors.white
+                // ignore: deprecated_member_use
                 .withOpacity(0.12),
 
             borderRadius:
@@ -846,6 +852,7 @@ class _HomeScreenState
 
             border: Border.all(
               color: Colors.white
+                  // ignore: deprecated_member_use
                   .withOpacity(0.18),
             ),
           ),
