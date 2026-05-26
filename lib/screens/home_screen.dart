@@ -530,7 +530,7 @@ class _HomeScreenState
                       if (monthlyBudget >
                               0 &&
                           remainingBalance <=
-                              20)
+                              50)
                         Container(
                           margin:
                               const EdgeInsets.only(
@@ -676,6 +676,7 @@ class _HomeScreenState
                                 BoxDecoration(
                               color: Colors
                                   .deepPurple
+                                  // ignore: deprecated_member_use
                                   .withOpacity(
                                 0.1,
                               ),
