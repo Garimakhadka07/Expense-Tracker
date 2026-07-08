@@ -313,6 +313,7 @@ class ChartScreen extends StatelessWidget {
                       boxShadow: [
                         BoxShadow(
                           color: Colors.grey
+                              // ignore: deprecated_member_use
                               .withOpacity(0.08),
 
                           blurRadius: 10,
@@ -412,4 +413,4 @@ class ChartScreen extends StatelessWidget {
       ),
     );
   }
-}
+} 
